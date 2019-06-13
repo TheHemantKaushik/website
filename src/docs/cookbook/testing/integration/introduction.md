@@ -200,7 +200,7 @@ This involves four steps:
      to locate specific widgets
   2. Connect to the app before our tests run in the `setUpAll()` function
   3. Test the important scenarios
-  4. Disconnect from the app in the `teardownAll()` function after the tests
+  4. Disconnect from the app in the `tearDownAll()` function after the tests
      complete
 
 ```dart
